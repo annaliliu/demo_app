@@ -32,7 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :production do
-  gem 'pg'
+  gem 'pg'  
+  gem 'rails_12factor'
+
 end
 
 
